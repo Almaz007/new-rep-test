@@ -74,7 +74,7 @@
                                     "properties": {
                                         "status": {
                                             "type": "integer",
-                                            "example": 500
+                                            "example": 404
                                         },
                                         "message": {
                                             "type": "string",
@@ -331,7 +331,7 @@
                 "tags": [
                     "Projects"
                 ],
-                "summary": "Обновление проекта оп id",
+                "summary": "Обновление проекта по id",
                 "parameters": [
                     {
                         "name": "project",

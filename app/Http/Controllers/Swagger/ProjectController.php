@@ -101,7 +101,7 @@ use App\Http\Controllers\Controller;
  *          response=404,
  *          description="No Records Found",
  *          @OA\JsonContent(
- *              @OA\Property(property="status", type="integer", example=500),
+ *              @OA\Property(property="status", type="integer", example=404),
  *              @OA\Property(property="message", type="string", example="No Records Found")
  *          )  
  *      ),
@@ -182,7 +182,7 @@ use App\Http\Controllers\Controller;
  *  ),
  * @OA\Put(
  *      path="/api/projects/{project}",
- *      summary="Обновление проекта оп id",
+ *      summary="Обновление проекта по id",
  *      tags={"Projects"},
  * 
  *      @OA\Parameter(

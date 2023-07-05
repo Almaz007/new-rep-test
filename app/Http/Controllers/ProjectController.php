@@ -54,7 +54,7 @@ class ProjectController extends Controller
             'name' => 'required|string|min:3|max:255',
             'product' => 'required|string|min:3|max:255',
             'client' => 'required|nullable|string|max:255',
-            'year' => 'required|max:2030'
+            'year' => 'required|integer|max:2030'
         ]);
         if($validator->fails()){
             return  response()->json([
